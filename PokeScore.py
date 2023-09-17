@@ -36,8 +36,6 @@ def scrabble_defense_score():
 
         score = pokemon.base_stats.defense * scrabble_score( pokemon.name )
 
-        print( str( x ) + "  " + str( score ) )
-
         if score > highScore:
 
             highScore = score
